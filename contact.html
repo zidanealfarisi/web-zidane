@@ -1,0 +1,84 @@
+<html>
+    <head> 
+        <title> CNL </title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="contact.js"> </script>
+
+
+
+    </head>
+    
+    <body>
+           <!--Navbar-->
+        <nav>
+            <div class="left-side">
+            
+            <a href="index.html">
+        <img src="assets/logo.png">
+            </a>
+        
+        <ul>
+            <li> 
+                <a href="contact.html" class="list-active"> Home </a>
+            </li>
+            <li>
+                <a href="index.html"> Blog </a>
+            </li>
+        </ul>
+           </div>
+
+        <div class="right-side">
+           <a href=""> Contact Me</a>
+        </div>
+        </nav>
+          <!--End navbar-->
+
+          <!--formcontact-->
+
+          <div class="form-contact">
+           
+            <div class="container-form">
+           
+                <div style="width: 300px; ">
+                    <form>  
+                    <div style="margin-bottom: 1px; text-align: left; font-family:'Lucida Sans';" >
+                       <label for="input-name">Name</label>
+                       <input id="input-name" type="text" style="width: 100%; padding: 10px; margin-top: 7px; background-color: rgb(199, 199, 199); border-radius: 10px;">
+                    </div>
+              
+                    <div style="margin-bottom: 1px ; text-align: left; font-family: 'Lucida Sans'" >
+                       <label for="input-email">Email</label>
+                       <input id="input-email" type="text" style="width: 100%; padding: 10px; margin-top: 7px; background-color: rgb(199, 199, 199) ; border-radius: 10px;" >
+                    </div>
+            
+                    <div style="margin-bottom: 1px ; text-align: left; font-family: 'Lucida Sans'" >
+                        <label for="input-phone">Phone Number</label>
+                        <input id="input-phone" type="text" style="width: 100%; padding: 10px; margin-top: 7px; background-color: rgb(199, 199, 199); border-radius: 10px; " >
+                    </div>
+            
+                    <div style="margin-bottom: 1px ; text-align: left; font-family: 'Lucida Sans'" >
+                      <label>Subject</label>
+                        <select id="input-subject" style="width: 100%; padding: 7px; margin-top: 7px; background-color: rgb(199, 199, 199); ; border-radius: 10px; border-color: black;" >
+                           <option>Let's Talk</option>
+                           <option>Let's Cooperation</option>
+                           <option>Let's Do This</option>
+                        </select>
+                    </div>
+            
+                    <div style="margin-bottom: 1x ; text-align: left; font-family: 'Lucida Sans'" >
+                        <label for="input-Your_Message">Your Message</label>
+                        <textarea id="input-Your_Message"  style="width: 100%; padding: 19px; margin-top: 7px; background-color: rgb(199, 199, 199)  ; border-radius: 10px; border-color: black;" ></textarea>
+                    </div>
+                    <button class="button" type="button" onclick="submitForm()" >
+                        Submit
+                    </button>
+                    
+                 </form>
+                </div>
+             </div>
+          </div>
+       </div>
+          <!--End card-->
+    </body>
+</html>
