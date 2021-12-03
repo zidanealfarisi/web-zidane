@@ -15,7 +15,7 @@ function submitForm() {
     console.log (subject)
     console.log (message)
 
-    let receiveMail = "jokowi@gmail.com"
+    let receiveMail = "zidanealfarisi3103@gmail.com"
 
     let a = document.createElement("a");
 
